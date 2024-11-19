@@ -1,0 +1,19 @@
+body{
+    background-color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+}
+h1{
+    background-color: red;
+    margin: 0;
+    font-family:Impact;
+}
+h2{
+    background-color: tomato;
+    margin: 0;
+}
+p{
+    background-color: yellow;
+    font-size: 20px;
+    margin: 0;
+}
