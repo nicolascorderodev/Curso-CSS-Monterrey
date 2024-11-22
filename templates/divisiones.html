@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Divisiones CSS</title>    
+        <link rel="stylesheet" href="../styles/divisiones.css">
+    </head>
+    <body>
+        <h1>Divisiones en CSS(Cascading Style Sheets)</h1>
+        <p>En el módulo de <strong>HTML</strong> llamado <strong>span</strong>, cuya función es permitir la modificación de pequeñas partes del documento. Las divisiones son elementos que cumplen con funciones similares a un span, sin embargo, a diferencia de un span, las divisiones se usan para agrupar bloques enteros de elementos en lugar de frases o palabras.</p>
+        <p>Para implementar una división utilizamos la etiqueta <strong>div</strong>. Las divisiones tipicamente están acompañadas de una clase o ID para poder modificar el contenido dentro sin afectar a otros elementos alrededor de ellas.</p>
+        <h2>Ejemplos de uso</h2>
+        <p>Podemos separar secciones de contenido usando divisiones, el siguiente ejemplo muesta esto.</p>
+        <div class="contenedor-1">
+            <h3>Esta es la división 1</h3>
+        </div>
+        <div class="contenedor-2">
+            <p>Esta es la división 2</p>
+        </div>
+        <h2>Ejemplo usando divisiones dentro de divisiones</h2>
+        <div class="contenedor-1">
+            <h3>Esta es la división principal</h3>
+            <div class="contenedor-2">
+                <p>Esta es la división secundaria dentro de la división primaria.</p>
+            </div>
+        </div>
+        <h2>Herencia</h2>
+        <p>Podemos observar que el color del texto en el segundo contenedor cambia: en el primer ejemplo es negro y en el segundo blanco. Esto pasa porque en el segundo ejemplo, la segunda división esta <span style="font-weight: bold;">dentro</span> de la primera, lo cual causa que se hereden las propiedades de la primera división a la segunda.</p>
+        <p>A esto se le denomina <strong>herencia</strong>, la cual consiste en aquellas propiedades que se pasan de un elemento padre o superior a otro elemento hijo.</p>
+    </body>
+</html>

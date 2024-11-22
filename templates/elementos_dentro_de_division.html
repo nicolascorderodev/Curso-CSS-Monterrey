@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elementos dentro de una división</title>
+        <link rel="stylesheet" href="../styles/elementos_dentro_de_division.css">
+    </head>
+    <body>
+        <h1>Elementos dentro de una división en CSS(Cascading Style Sheets)</h1>
+        <p>Podemos ser aún mas especificos y seleccionar elementos dentro de otros elementos. Esto se hace escribiendo selectores separados por espacios.</p>
+        <div class="ejemplo">
+            <h2>Ejemplo con elementos dentro de una división</h2>
+            <div class="azul">
+                <h1><p>Este encabezado no es azul</p></h1>
+                <p>Este texto es azul</p>
+            </div>
+            <p class="azul">Este texto tampoco es azul.</p>
+        </div>
+        <p>En este ejemplo, el único texto azul es el del párrafo que está dentro de un elemento con la clase <span style="font-weight: bold; font-family: cambria; color: blue;">azul.</span> El encabezado no es azul, pues, aunque está dentro de la división, no está dentro de un párrafo. El último párrafo tampoco es azul porque no está dentro de un elemento con la clase azul.</p>
+    </body>
+</html>
