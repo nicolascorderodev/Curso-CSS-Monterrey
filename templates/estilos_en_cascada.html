@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estilos en cascada</title>
+        <link rel="stylesheet" href="../styles/estilos_en_cascada.css">
+    </head>
+    <body>
+        <div class="principal">
+            <h1>Estilos en cascada en CSS(Cascading Style Sheets)</h1>
+            <p>Algo más que se se debe tener en cuenta es que en <strong>CSS</strong> los cambios se aplican en orden de cascada(de arriba a abajo). Esto quiere decir que si se modifica una propiedad de una división al principio y se vuelve a modificar al final del <strong>CSS</strong>, el estilo asignado será el último.</p>
+        </div>
+        <div class="ejemplo-estilos">
+            <h2>Ejemplo</h2>
+            <div class="azul">
+                <p>Este texto es azul</p>
+            </div>
+            <div class="morado rojo">
+                <p>Esto es un texto con dos clases.</p>
+            </div>
+        </div>
+        <div class="explicacion-ejemplo">
+            <p>Este ejemplo nos muestra esto de dos maneras:</p>
+            <ol>
+                <li>La clase <span style="color: purple; font-family:helvetica; font-weight: bold;">morado</span> se modifica primero con el color blanco, pero al final con el color morado y esto es lo que se visualiza.</li>
+                <li>La clase <span style="color: red; font-family:helvetica; font-weight: bold;">rojo</span> también se aplica al segundo texto en el código HTML, pero como la clase <span style="color: purple; font-family:helvetica; font-weight: bold;">morado</span> es la última del archivo CSS, esta es la que se ve.</li>
+            </ol>
+        </div>
+        <div class="divs-vs-code">
+            <h2>Divs en Visual Studio Code</h2>
+            <p>VS Code nos permite escribir elementos <strong>&lt;div&gt;</strong> de manera rápida, para esto solo hay que escribir un punto . seguido del nombre de la clase que queremos asignarle a nuestra división, de esta manera: </p>
+            <h3>Ejemplo de atajo usando clases</h3>
+            <p>.division1.division2</p>
+            <br>
+            <p>Para un ID, entonces en lugar de un punto utilizamos un #.</p>
+            <h3>Ejemplo de atajo usando ID´S</h3>
+            <p>#division1</p>
+            <p>Podemos ver la lista completa de atajos haciendo clic <a href="https://docs.emmet.io/cheat-sheet/" target="_blank">aquí.</a></p>
+        </div>
+        <h2 style="font-size: 80px; text-align: center; color: blue;"><marquee scrollamount="30">GRACIAS POR SU ATENCIÓN</marquee></h2>
+    </body>
+</html>
